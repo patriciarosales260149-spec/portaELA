@@ -1,0 +1,104 @@
+
+
+
+
+
+body {
+            font-family: Brodway;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #7c1051;
+            color: Black;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            display: flex;
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+        nav img {
+            width: 60px; /* Ajusta el ancho de la imagen según lo necesites */
+            margin-right: 50%; /* Agrega un espacio entre la imagen y las opciones de menú */
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 40px;
+        }
+        section {
+            padding: 20px;
+            margin-top: 70px; /* Ajusta el margen superior para evitar que el contenido se solape con la barra de navegación */
+        }
+
+        h2{
+            font-family: arial black;
+        }
+        
+        ul{background-color: white;}
+
+        /*botones*/
+
+.boton{display:block;text-decoration:none;background-color:#341539;color:white;padding:10px;margin:10px 0;border-radius:8px;transition:0.3s;}
+
+.boton i{margin-right:8px;}
+
+.boton:hover{background-color:pink}
+body{background-image:url(https://i.pinimg.com/736x/f5/cb/aa/f5cbaa59dba851aa7e56b48b9a045814.jpg)}
+main{background-image:url(https://i.pinimg.com/736x/f5/cb/aa/f5cbaa59dba851aa7e56b48b9a045814.jpg)}
+
+main{background-color: #f5f5f5;
+padding: 40px;
+font-family: arial;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/*tamaño gral carrusel*/
+#carouselExampleCaptions{
+
+    max-width: 900px;
+    margin: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/*imagenes carrusel*/
+.carousel-item img{
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    background: rgba(0,0,0,0.55);
+    padding:15px;
+    border-radius: 10px;
+}
+
+.carousel-caption h5{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-size: 16px;
+}
+
+.carousel-indicators button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+
